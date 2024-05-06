@@ -1,0 +1,14 @@
+name: Mention
+version: '1.0'
+main: tw.ch1ck3n.mention.Mention
+api-version: '1.20'
+
+commands:
+  mention:
+    usage: "/mention <sub-command>"
+    description: "This plugin's admin only commands"
+    permission: mention.admin
+
+permissions:
+  mention.admin:
+    default: op
